@@ -1,5 +1,7 @@
 # Conta Bancária — TDD
 
+**Dupla:** Matheus Goulart de Alencar e Miguel Falcão Costacurta.
+
 Projeto Maven com Java 17 e JUnit 5.
 
 ## Executar
@@ -14,4 +16,4 @@ mvn test
 4. Repita para o próximo comportamento.
 5. Refatore mantendo os testes passando.
 
-A classe `ContaBancaria` está propositalmente incompleta.
+No projeto-base, a classe `ContaBancaria` estava propositalmente incompleta. Nesta entrega, depósito e saque foram implementados e os quatro testes fornecidos passam.

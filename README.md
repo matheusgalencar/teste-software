@@ -1,5 +1,7 @@
 # Avaliação prática — Prova 02
 
+**Dupla:** Matheus Goulart de Alencar e Miguel Falcão Costacurta.
+
 Este projeto reúne as atividades por semana. A Semana 10 está concluída em `semana10/`.
 
 ## Semana 10 — TDD

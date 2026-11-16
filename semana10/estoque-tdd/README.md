@@ -1,5 +1,7 @@
 # Estoque — Exemplo de TDD
 
+**Dupla:** Matheus Goulart de Alencar e Miguel Falcão Costacurta.
+
 Projeto Maven com Java 17 e JUnit 5 para demonstração de TDD.
 
 ## Executar
