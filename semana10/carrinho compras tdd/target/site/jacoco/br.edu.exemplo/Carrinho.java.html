@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="pt"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Carrinho.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">carrinho-compras-tdd</a> &gt; <a href="index.source.html" class="el_package">br.edu.exemplo</a> &gt; <span class="el_source">Carrinho.java</span></div><h1>Carrinho.java</h1><pre class="source lang-java linenums">package br.edu.exemplo;
+
+import java.math.BigDecimal;
+import java.util.ArrayList;
+import java.util.List;
+
+<span class="fc" id="L7">public class Carrinho {</span>
+<span class="fc" id="L8">    private static final BigDecimal LIMITE_DESCONTO = new BigDecimal(&quot;500.00&quot;);</span>
+<span class="fc" id="L9">    private static final BigDecimal FATOR_COM_DESCONTO = new BigDecimal(&quot;0.90&quot;);</span>
+
+<span class="fc" id="L11">    private final List&lt;Produto&gt; produtos = new ArrayList&lt;&gt;();</span>
+
+    public void adicionarProduto(Produto produto) {
+<span class="fc" id="L14">        produtos.add(produto);</span>
+<span class="fc" id="L15">    }</span>
+
+    public void removerProduto(Produto produto) {
+<span class="fc" id="L18">        produtos.remove(produto);</span>
+<span class="fc" id="L19">    }</span>
+
+    public double getTotal() {
+<span class="fc" id="L22">        BigDecimal subtotal = BigDecimal.ZERO;</span>
+<span class="fc bfc" id="L23" title="All 2 branches covered.">        for (Produto produto : produtos) {</span>
+<span class="fc" id="L24">            subtotal = subtotal.add(BigDecimal.valueOf(produto.getPreco()));</span>
+<span class="fc" id="L25">        }</span>
+<span class="fc bfc" id="L26" title="All 2 branches covered.">        if (subtotal.compareTo(LIMITE_DESCONTO) &gt;= 0) {</span>
+<span class="fc" id="L27">            subtotal = subtotal.multiply(FATOR_COM_DESCONTO);</span>
+        }
+<span class="fc" id="L29">        return subtotal.doubleValue();</span>
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.13.202504020838</span></div></body></html>
