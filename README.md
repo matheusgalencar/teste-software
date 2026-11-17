@@ -1,6 +1,6 @@
 # Avaliação prática — Prova 02
 
-**Dupla:** Matheus Goulart de Alencar e Miguel Falcão Costacurta.
+**Dupla:** Matheus Goulart de Alencar (24131995-2) e Miguel Falcão Costacurta (24011302-2).
 
 | Atividade                                                        | Exercícios                                                        |
 | ---------------------------------------------------------------- | ----------------------------------------------------------------- |
