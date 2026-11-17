@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package br.edu.exemplo;
 
 public class Produto {
@@ -21,3 +22,28 @@ public class Produto {
         return preco;
     }
 }
+=======
+package br.edu.exemplo;
+
+public class Produto {
+
+    private String nome;
+    private double preco;
+
+    public Produto(String nome, double preco) {
+        if (preco < 0) {
+            throw new IllegalArgumentException("O preço não pode ser negativo");
+        }
+        this.nome = nome;
+        this.preco = preco;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public double getPreco() {
+        return preco;
+    }
+}
+>>>>>>> 9753bfd5c78274a4b11e2fc522ecf63bf48dae6b

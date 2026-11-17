@@ -1,4 +1,11 @@
+<<<<<<< HEAD
 -------------------------------------------------------------------------------
 Test set: br.edu.exemplo.ProdutoTest
 -------------------------------------------------------------------------------
 Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.729 s -- in br.edu.exemplo.ProdutoTest
+=======
+-------------------------------------------------------------------------------
+Test set: br.edu.exemplo.ProdutoTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.729 s -- in br.edu.exemplo.ProdutoTest
+>>>>>>> 9753bfd5c78274a4b11e2fc522ecf63bf48dae6b

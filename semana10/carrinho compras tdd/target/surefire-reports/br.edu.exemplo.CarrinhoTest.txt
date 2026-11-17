@@ -1,4 +1,11 @@
+<<<<<<< HEAD
 -------------------------------------------------------------------------------
 Test set: br.edu.exemplo.CarrinhoTest
 -------------------------------------------------------------------------------
 Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.987 s -- in br.edu.exemplo.CarrinhoTest
+=======
+-------------------------------------------------------------------------------
+Test set: br.edu.exemplo.CarrinhoTest
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.987 s -- in br.edu.exemplo.CarrinhoTest
+>>>>>>> 9753bfd5c78274a4b11e2fc522ecf63bf48dae6b
